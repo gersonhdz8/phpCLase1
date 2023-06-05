@@ -350,6 +350,35 @@
      **/  
 
     
+    /**
+     * * ISSET() Y EMPTY()
+     * El metodo issset comprueba si hay una variable definida, si está declarada pero no definida retornará false
+     * El metodo empty verifica si una varible no está declarada o vacia, es decir, puede estar declarada y definida como null,0,[]. EN este caso devuelde true, en caso contrario devuelve false
+     *  */ 
+    $variable;
+    $variable2=0;    
+    
+    if(isset($variable))
+    {
+        echo"La variable existe";
+    }
+    else
+    {
+        echo "la variable no existe";
+    }
+    
+    if(empty($variable2))
+    {
+        echo"vacio";
+    }
+    else
+    {
+        echo "lleno";
+    }
+
+    /**
+     * *ESTRUCTURAS DE CONTROL
+     */
 
 
 
